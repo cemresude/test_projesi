@@ -1,0 +1,353 @@
+
+--- Sayfa 1 ---
+ 
+Student Affairs System  
+For College of science Al Zulfi  
+Department of Computer Science and Information  
+ 
+ 
+‘Ask 4Help’ Application  
+ 
+ 
+ 
+Submitted in partial fulfillment of the requirements for the award of  
+Bachelor degree of the Majmaah University  
+(Semest er 2, 2019 ) 
+ 
+Submitted by:  
+Ayoub Saud Albader  
+351100537  
+ 
+Under the supervision of:  
+Dr. Fayez Alfayez  المملكة العربية السعودية  
+وزارة التعليم  
+جامعة المجمعة  
+كلية العلوم  
+قسم علوم الحاسب والمعلومات  Kingdom of Saudi Arabia  
+Ministry of Education  
+Majmaah University  
+College Of Science  
+Department of CSI  
+ 
+ 
+--- Sayfa 2 ---
+i Table of Contents  
+ 
+Table of Contents  ................................ ................................ ................................ .................  i 
+List of Figures  ................................ ................................ ................................ .....................  ii 
+1.0. Introduction  ................................ ................................ ................................ ................  1 
+1.1. Purpose  ................................ ................................ ................................ .....................  1 
+1.2. Project proposal  ................................ ................................ ................................ ........  1 
+2.0. Overall Description  ................................ ................................ ................................ . 2 
+2.1 System Environment ................................ ................................ ..............................  2 
+2.2 Functional Requireme nts Specification  ................................ ................................ . 3 
+2.2.1  Register users Use Case  ................................ ................................ ..................  3 
+2.2.2  User Use Case  ................................ ................................ ................................ . 4 
+2.2.3 Use Case:  User volunteer  ................................ ................................ ...............  4 
+2.2.4  Help ER Diagram  ................................ ................................ ............................  5 
+Entity Relationship:  Help asking Diagram:  ................................ ..............................  5 
+2.2.5  System work  Data Flow Diagram  ................................ ................................ .. 6 
+DFD:   System Details  Diagram:  ................................ ................................ ..............  6 
+2.3 Non-Functional Requirements  ................................ ................................ ...............  7 
+3.0 System design  ................................ ................................ ................................ ..........  8 
+3.1 Description of procedures and function  ................................ ................................ ..... 8 
+4.0 Implementatio n and Testing  ................................ ................................ ......................  8 
+4.1 Introduction  ................................ ................................ ................................ ...............  8 
+4.2 Layouts  ................................ ................................ ................................ ......................  9 
+4.2.1 Layouts  report  ................................ ................................ ................................ ........  9 
+References  ................................ ................................ ................................ ........................  12 
+ 
+--- Sayfa 3 ---
+ii  
+List of Figures  
+ 
+Figure 1 - System Environment  ................................ ................................ ..........................  2 
+Figure 2 - Create account process  ................................ ................................ .......................  3 
+Figure 3 - User Use Cases  ................................ ................................ ................................ ... 4 
+Figure 4 – User Volunteer ................................ ................................ ................................ ... 4 
+Figure 5 - Help asking Diagram ................................ ................................ ..........................  5 
+Figure 6 - System work data flow diagram  ................................ ................................ .........  6 
+Figure 7 - Register a new account ................................ ................................ .......................  9 
+Figure 8 - Log in  ................................ ................................ ................................ .................  9 
+Figure 9 - Subjects list  ................................ ................................ ................................ ........  9 
+ 
+ 
+--- Sayfa 4 ---
+ 
+SRS V 2.0 1 April  1, 2019  1.0. Introduction  
+1.1. Purpose  
+ The purpose of this document is to present a detai led description of the Ask4help 
+program. It will explain the purpose and features of the system, the interfaces of the 
+system, what the system will do, the constraints under which it must operate and how the 
+system will react to external stimuli.  
+1.2. Project proposal  
+Technology is one of the most important sources used in the present time and can be 
+utilized in all areas of life, in science, education, engineering, communication, 
+entertainment, housing and many more,  
+Consequently, the idea was to create a service program to help people spend their needs 
+free of charge.  
+( Ask4help )  
+This is the name of the program we would like to do  
+The program is based entirely on all users in general, as anyone who registers in the 
+program can ask for help for anything th ey need, and can also volunteer to help others  
+For example: If you want to inquire about the method of registration in a website,  
+Or if I wanted to ask how to solve a mathematical issue,  
+Or if I encountered a mechanical problem in the car and wanted to kno w how to solve it,  
+So the person can inquire about all the problems facing him and benefit from the 
+experience of others in ways to solve  
+* The person can also ask for help from people close to him, by sending a broadcast 
+containing his location and the pr oblem he faces  
+For example, if a person has a flat tire and needs to be repaired, he sends the broadcast to 
+people close to him for help.  
+ 
+ 
+ 
+--- Sayfa 5 ---
+ 
+SRS V 2.0 2 April  1, 2019   
+2.0. Overall Description  
+2.1 System Environment  
+ 
+ 
+Figure 1 - System Environment  
+ 
+  
+--- Sayfa 6 ---
+ 
+SRS V 2.0 3 April  1, 2019  2.2 Functional Requirements Specification  
+ This section outlines the use cases for each of the activ ities in the program.  
+2.2.1  Register users  Use Case  
+Use case:  Account Create  
+ 
+ 
+Brief Description  
+If the user wants to use the p rogram, he must register within the program to be able to 
+benefit from it. 
+ 
+Initial Step -By-Step Description  
+Before this use case can be initiated, the user has already the program . 
+ 
+1. The user will be creating  an account.  
+2. The system requires  to active the a ccount . 
+3. The user can reset the password . 
+4. User access the system . 
+ 
+  
+ User  Account Create  
+Reset Password  Remember 
+Passwo rd 
+Active 
+Account  
+Create Account  Access the 
+system  
+Figure 2 - Create account process  
+--- Sayfa 7 ---
+ 
+SRS V 2.0 4 April  1, 2019  2.2.2 User Use Case  
+ 
+The User after register has the following:  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     
+ 
+2.2.3  Use Case :  User  volunteer  
+Diagram:  
+ 
+Description  
+Before this use case can be initiated, the user has accessed to the main page of the 
+application . 
+The user can be volunteer to help other users . 
+ 
+ User  ID 
+Status  
+Mail box  Account Info  
+User  Volunteer  Figure 3 - User Use Cases  
+Figure 4 – User Volunt eer 
+--- Sayfa 8 ---
+ 
+SRS V 2.0 5 April  1, 2019  2.2.4 Help  ER Diagram  
+In case of helping ask , this term refers to the way for using the program . 
+ 
+Entity Relationship : Help asking  Diagram:  
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 5 - Help asking Diagram  
+--- Sayfa 9 ---
+ 
+SRS V 2.0 6 April  1, 2019  2.2.5 System W ork Data Flow Diagram  
+DFD :  System Details  Diagram:  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Brief Description  
+The User  enters a new request  for ask help  with some information about the problem . 
+ 
+Initial Step -By-Step Description  
+Before this use case can be initiated, the User  has already  accessed the main page of the 
+Program . 
+ 
+1. The System  display  to Add new request or show the others problems . 
+2. The user has a choice of request  or show a problem .  
+3. The user choos es to add  or to show . 
+4.    If the user is adding a new request, the system presents a list of type of problems to 
+choose from and presents a grid filling in with the information; else the system presents a 
+blank grid.  
+5. The Use r fills in the problem information and submits the form.  
+6. The system shows the information to other users for get a help.  
+Figure 6 - System work data flow d iagram  
+--- Sayfa 10 ---
+ 
+SRS V 2.0 7 April  1, 2019  2.3 Non-Functional Requirements  
+ Performance  
+When sending a help request an alert will be sent to all registrants in the program.  
+ 
+ Usability  
+Ease of use and clarity of the program.  
+ 
+ Locating help  
+Send the user a location to access if needed.  
+ 
+ Scalability  
+The program is scalable and modifiable  by the Administrator . 
+ 
+ Interoperability  
+The program is based on helping Users  to each other . 
+ 
+ Reliability  
+The program is reliable during use and browsing inside.  
+ Maintainability  
+The program is maintenanceable when there is any problem.  
+ Serviceability  
+User can communicate with the administrator when there is any inquiry or suggestion.  
+ Security  
+The pr ogram is secured from hacking and viruses.  
+ Regulatory  
+Working within the program is regular and easy to use.  
+ Manageability  
+There is an administrator who manages and supervises the program.  
+--- Sayfa 11 ---
+ 
+SRS V 2.0 8 April  1, 2019  3.0 System design  
+3.1 Description of procedures and function  
+ The appli cation was implemented in Java  Langauge . 
+ Now works on Android devices . 
+ The appl ication is required to have android system version  by 4.0 or above . 
+ 
+ 
+4.0 Implementation and Testing  
+4.1 Introduction  
+The app lication  was implemented in Android Studio . 
+The data bases were created at Google's Fireb ase website . 
+ 
+Contains three basic interfaces : 
+1. Register a new account  
+2. Log in  
+3. The main page  
+ 
+Three dialog boxes : 
+1. Splash Screen  
+2. Add a new topic  
+3. Add a comment  
+ 
+And t hree databases:  
+1. Users database  
+2. Subjects database  
+3. Comments database  
+--- Sayfa 12 ---
+ 
+SRS V 2.0 9 April  1, 2019  4.2 Layouts  
+ 
+ 
+ 
+ 
+ Figure 7 - Register a new account  Figure 8 - Log in  
+Figu re 9 - Subjects list  
+--- Sayfa 13 ---
+ 
+SRS V 2.0 10 April  1, 2019  4.2.1 Layouts  report  
+ 
+1. Register layout  
+ 
+Fill the blanks ,  
+Then press register  
+The toast will shown 
+below  that you have 
+complete your 
+registration  
+--- Sayfa 14 ---
+ 
+SRS V 2.0 11 April  1, 2019  2. Login layout  
+ 
+ 
+Input your phone  
+Input your password  
+Press login, Enjoy the app!  Press here, If you are not a member yet  
+Add new subject  Subject Pictures  
+Subject Title  
+Shortcut of  
+The subject  
+description  
+--- Sayfa 15 ---
+ 
+SRS V 2.0 12 April  1, 2019   
+References
+1. https://en.wi kipedia.org/wiki/Software_requirements_specification  
+2. https://reqtest.com/requirements -blog/functional -vs-non-functional -requirements/  
+3. https://creately.com/app/#  
+4. https://www.edsd.com/portfolio/mobile -applications  
+5. https://stackoverflow.com/tags  
+6. https://github.com/topics  
+ 
